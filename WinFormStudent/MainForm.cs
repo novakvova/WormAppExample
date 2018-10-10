@@ -24,7 +24,7 @@ namespace WinFormStudent
 
         private void mStudent_Add_Click(object sender, EventArgs e)
         {
-            StudentAdd dlg = new StudentAdd();
+            StudentAddForm dlg = new StudentAddForm();
             dlg.ShowDialog();
         }
     }

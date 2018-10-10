@@ -52,13 +52,14 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="MyItemComboBox.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StudentAdd.cs">
+    <Compile Include="StudentAddForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StudentAdd.Designer.cs">
-      <DependentUpon>StudentAdd.cs</DependentUpon>
+    <Compile Include="StudentAddForm.Designer.cs">
+      <DependentUpon>StudentAddForm.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -72,8 +73,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="StudentAdd.resx">
-      <DependentUpon>StudentAdd.cs</DependentUpon>
+    <EmbeddedResource Include="StudentAddForm.resx">
+      <DependentUpon>StudentAddForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
